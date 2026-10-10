@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="fav-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A5CD6" />
+      <stop offset="100%" stop-color="#0AA0FF" />
+    </linearGradient>
+    <linearGradient id="fav-green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10C98A" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0B1F4B" />
+  
+  <!-- Stylized 'R' Stem (Road motif) -->
+  <path d="M14 14 h10 v36 h-10 z" fill="url(#fav-blue-grad)" rx="3" />
+  <line x1="19" y1="20" x2="19" y2="26" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  <line x1="19" y1="34" x2="19" y2="40" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Pin Loop with Checkmark -->
+  <path d="M24 14 h16 c8 0 12 5 12 11 c0 6 -4 11 -12 11 h-16 z" fill="url(#fav-green-grad)" />
+  <!-- White checkmark in pin -->
+  <path d="M33 24 l4 4 l8 -8" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 'R' Diagonal Leg -->
+  <path d="M32 36 l16 14 h-12 l-12 -14 z" fill="url(#fav-blue-grad)" />
+</svg>
